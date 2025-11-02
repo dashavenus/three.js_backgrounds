@@ -1,0 +1,27 @@
+{
+  "name": "cosmic-pencil-stars",
+  "version": "1.0.0",
+  "description": "A web project featuring a dark blue pencil-style background with bright yellow pencil stars and volumetric light mist.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  },
+  "keywords": [
+    "three.js",
+    "pencil-style",
+    "stars",
+    "background",
+    "webgl"
+  ],
+  "author": "",
+  "license": "MIT"
+}

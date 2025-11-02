@@ -1,0 +1,24 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  background: #254f84; /* Dark blue background */
+}
+
+canvas {
+  display: block;
+}
+
+.star {
+  position: absolute;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(248, 201, 75, 1) 0%, rgba(248, 201, 75, 0) 70%);
+  box-shadow: 0 0 10px rgba(248, 201, 75, 0.8), 0 0 20px rgba(248, 201, 75, 0.5);
+}
+
+.mist {
+  position: absolute;
+  background: rgba(255, 165, 0, 0.1); /* Light orange mist */
+  opacity: 0.5;
+  pointer-events: none;
+}
